@@ -1,9 +1,6 @@
 Portofolio Pribadi - Novian Fadhilah
 Selamat datang di repositori kode sumber untuk website portofolio pribadi saya. Proyek ini dibangun untuk menampilkan perjalanan, keahlian, dan proyek-proyek yang telah saya kerjakan sebagai seorang Software Engineer.
 
-🚀 Lihat Live Demo
-
-
 
 🌟 Tentang Proyek Ini
 Website ini adalah sebuah Single-Page Application (SPA) yang dirancang dengan estetika modern, tema gelap, dan pengalaman pengguna yang mulus. Tujuannya adalah untuk memberikan gambaran komprehensif tentang kemampuan teknis saya, proyek-proyek unggulan, serta sertifikasi yang relevan.
@@ -45,7 +42,7 @@ Tertarik untuk mencoba proyek ini di mesin lokal Anda? Ikuti langkah-langkah ber
 
 Clone repositori ini:
 
-git clone https://github.com/[username-github-anda]/[nama-repo-anda].git
+git clone https://github.com/nopianpdlh/nopianpdlh.git
 
 Masuk ke direktori proyek:
 
