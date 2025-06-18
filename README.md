@@ -1,40 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Portofolio Pribadi - Novian Fadhilah
+Selamat datang di repositori kode sumber untuk website portofolio pribadi saya. Proyek ini dibangun untuk menampilkan perjalanan, keahlian, dan proyek-proyek yang telah saya kerjakan sebagai seorang Software Engineer.
 
-## Getting Started
+🚀 Lihat Live Demo
 
-First, run the development server:
 
-```bash
+
+🌟 Tentang Proyek Ini
+Website ini adalah sebuah Single-Page Application (SPA) yang dirancang dengan estetika modern, tema gelap, dan pengalaman pengguna yang mulus. Tujuannya adalah untuk memberikan gambaran komprehensif tentang kemampuan teknis saya, proyek-proyek unggulan, serta sertifikasi yang relevan.
+
+🛠️ Tumpukan Teknologi (Tech Stack)
+Proyek ini dibangun menggunakan serangkaian teknologi modern untuk web development:
+
+Framework: Next.js (Pages Router)
+
+Bahasa: TypeScript
+
+Styling: Tailwind CSS
+
+Animasi: Framer Motion
+
+Efek Mengetik: React Type Animation
+
+Ikon: React Icons
+
+Deployment: Vercel
+
+✨ Fitur Utama
+Desain Modern & Responsif: Tampilan yang optimal di perangkat mobile, tablet, dan desktop.
+
+Tema Gelap: Antarmuka yang nyaman di mata dengan tema gelap yang elegan.
+
+Navigasi Smooth Scroll: Pengalaman navigasi yang mulus antar-bagian halaman.
+
+Efek Glassmorphism: Navbar yang menempel di atas dengan efek transparan seperti kaca.
+
+Animasi Interaktif: Elemen-elemen muncul secara dinamis saat di-scroll (fade-in, slide-up) menggunakan Framer Motion.
+
+Efek Mengetik (Typing Effect): Animasi mengetik pada jabatan di bagian Hero.
+
+Bagian Komprehensif: Termasuk bagian Tentang Saya, Keahlian, Proyek, Sertifikasi, dan Kontak.
+
+🚀 Menjalankan Secara Lokal
+Tertarik untuk mencoba proyek ini di mesin lokal Anda? Ikuti langkah-langkah berikut:
+
+Clone repositori ini:
+
+git clone https://github.com/[username-github-anda]/[nama-repo-anda].git
+
+Masuk ke direktori proyek:
+
+cd [nama-repo-anda]
+
+Instal semua dependensi:
+
+npm install
+
+Jalankan server pengembangan:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka http://localhost:3000 di browser Anda untuk melihat hasilnya.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+📬 Hubungi Saya
+Terima kasih telah mengunjungi repositori saya. Jika Anda memiliki pertanyaan, saran, atau ingin berkolaborasi, jangan ragu untuk menghubungi saya melalui:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+LinkedIn: https://linkedin.com/in/[username-linkedin-anda]
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Email: novianfadhilah03@gmail.com
