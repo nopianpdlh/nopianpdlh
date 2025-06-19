@@ -22,10 +22,10 @@ export default function Home() {
     <>
       {/* Konfigurasi SEO untuk halaman utama */}
       <Head>
-        <title>[Nama Anda] | Software Engineer</title>
+        <title>Novian Fadhilah</title>
         <meta
           name="description"
-          content="Portofolio pribadi [Nama Anda], seorang Software Engineer yang bersemangat dalam membangun aplikasi web modern."
+          content="Portofolio pribadi Novian Fadhilah, seorang Software Engineer yang bersemangat dalam membangun aplikasi web modern."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

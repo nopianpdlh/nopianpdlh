@@ -9,7 +9,7 @@ const AboutSection = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-4xl font-bold text-center mb-12">Tentang Saya</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="w-full h-auto flex justify-center">
             <img

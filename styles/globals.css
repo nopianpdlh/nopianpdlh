@@ -1,15 +1,26 @@
-/* Sintaks yang BENAR untuk Tailwind CSS v3 */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Mengatur smooth scroll untuk anchor links */
 html {
   scroll-behavior: smooth;
 }
 
-/* Mengatur warna dasar untuk dark mode */
 body {
-  /* Pastikan 'primary' terdefinisi di tailwind.config.ts */
-  @apply bg-primary text-white;
+  @apply bg-primary text-gray-200;
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(126, 34, 206, 0.2),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(240, 0, 184, 0.2),
+      transparent 50%
+    );
+}
+
+/* Custom class untuk memberikan efek perspektif pada container kartu */
+.perspective-container {
+  perspective: 1000px;
 }

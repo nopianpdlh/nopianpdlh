@@ -10,7 +10,7 @@ const ContactSection = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-4xl font-bold text-center mb-4">Hubungi Saya</h2>
+        <h2 className="text-4xl font-bold text-center mb-4">Contact</h2>
         <p className="text-center text-gray-400 mb-12">
           Saya terbuka untuk diskusi, kolaborasi, atau peluang baru. Jangan ragu
           untuk menghubungi.

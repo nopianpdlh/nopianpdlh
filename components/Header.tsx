@@ -13,11 +13,12 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 py-3 px-4 sm:px-8 border-b border-slate-700 bg-primary/80 backdrop-blur-lg">
+    // Efek kaca yang ditingkatkan: backdrop-blur lebih kuat, border gradien halus
+    <nav className="sticky top-0 z-50 py-3 px-4 sm:px-8 border-b border-white/10 bg-black/40 backdrop-blur-xl transition-all duration-300">
       <div className="container mx-auto flex justify-between items-center">
         <Link
           href="#home"
-          className="text-2xl md:text-3xl font-bold text-white"
+          className="text-2xl md:text-3xl font-bold text-white hover:text-accent-pink transition-colors duration-300"
         >
           Novian Fadhilah
         </Link>
@@ -26,7 +27,7 @@ const Header = () => {
             <Link
               key={link.href}
               href={link.href}
-              className="text-gray-300 hover:text-white transition-colors duration-300"
+              className="text-gray-300 hover:text-white font-medium transition-colors duration-300"
             >
               {link.title}
             </Link>
@@ -34,7 +35,6 @@ const Header = () => {
         </div>
         <div className="md:hidden">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            {/* Ikon Menu (Hamburger) */}
             <svg
               className="w-6 h-6 text-white"
               fill="none"
@@ -52,7 +52,6 @@ const Header = () => {
           </button>
         </div>
       </div>
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden mt-4">
           <div className="flex flex-col space-y-4 items-center">
